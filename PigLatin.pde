@@ -14,31 +14,6 @@ public int findFirstVowel(String sWord)
 //precondition: sWord is a valid String of length greater than 0.
 //postcondition: returns the position of the first vowel in sWord.  If there are no vowels, returns -1
 {
-	// String vowels[] = {"a","e","i","o","u"};
-	// if (sWord.lastIndexOf("a")!=-1) 
-	// {
-	// 	return sWord.lastIndexOf("a");
-	// } 
-	// else if (sWord.lastIndexOf("e")!=-1)
-	// {
-	// 	return sWord.lastIndexOf("e");
-	// } 
-	// else if (sWord.lastIndexOf("i")!=-1)
-	// {
-	// 	return sWord.lastIndexOf("i");
-	// } 
-	// else if (sWord.lastIndexOf("o")!=-1)
-	// {
-	// 	return sWord.lastIndexOf("o");
-	// } 
-	// else if (sWord.lastIndexOf("u")!=-1)
-	// {
-	// 	return (sWord.lastIndexOf("u"));
-	// } 
-	// else 
-	// {
-	// 	return -1;
-	// }
 	for(int i = 0; i < sWord.length(); i++)
        if(sWord.charAt(i) == 'a' || sWord.charAt(i) == 'e' || 
           sWord.charAt(i) == 'i' || sWord.charAt(i) == 'o' || sWord.charAt(i) == 'u')
